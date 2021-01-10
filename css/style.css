@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0px auto;
+}
+section{
+    padding: 80px 0px;
+}
+header#main-header {
+    background: #262626;
+    height: 60px;
+}
+ul.main-menu li {
+    list-style-type: none;
+    float: left;
+}
+
+ul.main-menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 38px;
+    transition: all 0.4s ease;
+}
+ul.main-menu li a:hover{
+    color: #ff6760;
+}
+.logo-area {
+    float: left;
+    width: 50%;
+    padding: 15px;
+}
+
+ul.main-menu {
+    width: 40%;
+    float: right;
+    padding: 22px;
+}
+
+
+section#banner {
+    background: #2a2a2a;
+}
+
+.banner-contents {
+    text-align: center;
+}
+.banner-contents p{
+    font-family: 'Lato', sans-seri;
+    color: #d1d1d1;
+    font-size: 34px;
+    margin-bottom: 40px;
+}
+.banner-contents h2 {
+    color: #fff;
+    font-weight: 200;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.banner-contents span {
+    font-weight: 700;
+}
+button#portfolio {
+    border: none;
+    padding: 14px 40px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    background: #ff6760;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+button#portfolio:hover{
+    background: #fff;
+    color: #ff6760;
+}
+section#services {
+    height: 170px;
+    background: #f8f8f8;
+}
+.single-services {
+    width: 20%;
+    text-align: center;
+    float: left;
+    margin-right: 76px;
+    cursor: pointer;
+}
+
+.single-services i {
+    font-size: 40px;
+    margin-bottom: 25px;
+    color: #616161;
+    transition: all 0.3s ease;
+}
+.single-services h4 {
+    color: #616161;
+    margin-bottom: 15px;
+}
+
+.single-services p {
+    color: #616161;
+    font-size: 15px;
+    line-height: 23px;
+}
+.single-services:last-child{
+    margin-right: 0px;
+}
+.single-services:hover i{
+    transform: scale(1.5);
+    color: #ff6760;
+}
+.sec-title {
+    text-align: center;
+}
+
+.sec-title h2 {
+    color: #616161;
+    margin-bottom: 15px;
+}
+
+.sec-title p {
+    font-family: 'Lato', sans-seri;
+    font-weight: 600;
+    color: #616161;
+}
+.sec-buttons {
+    text-align: center;
+}
+
+.sec-buttons button {
+    border: none;
+    padding: 10px 16px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    background: #ff6760;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.sec-buttons button:hover{
+    background: #595959;
+}
+.image-sec {margin-left: 25px;}
+.image-sec img {
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.image-sec img:hover{
+    transform: scale(1.05);
+}
+.last-content {
+    text-align: center;
+    line-height: 40px;
+}
+
+.last-content h2 {
+    font-size: 28px;
+    color: #e0e0e0;
+}
+
+.last-content p {
+    color: #7b7b7b;
+    font-size: 17px;
+}
+section#last-part {
+    background-color: #313131;
+    height: 150px;
+}
+
+.address p {
+    font-size: 13px;
+}
+
+.address i {
+    color: #ff6760;
+    margin-right: 5px;
+    font-size: 12px;
+}
+.address .fa-tty {
+    margin-left: 20px;
+}
+.social-area .fa-wifi {
+    font-size: 12px;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    border-radius: 50px;
+    color: #fff;
+    background: #f3b25b;
+}
+.social-area .fa-facebook-f{
+    font-size: 12px;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    border-radius: 50px;
+    color: #fff;
+    background: #5883c0;
+}
+.social-area .fa-tumblr{
+    font-size: 12px;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    border-radius: 50px;
+    color: #fff;
+    background: #63bee0;
+}
+.social-area .fa-dribbble {
+    font-size: 12px;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    border-radius: 50px;
+    color: #fff;
+    background: #63bee0;
+}
+.social-area .fa-pinterest-p{
+    font-size: 12px;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+    border-radius: 50px;
+    color: #fff;
+    background: #d35051;
+}
+.social-area i{
+    transition: all 0.3s ease;
+}
+.social-area i:hover{
+    background: #fff;
+    color: #000;
+}
+footer#footer-last {
+    text-align: center;
+    padding: 25px;
+    background: #2c2c2c;
+    color: #bebebe;
+    font-size: 12px;
+}
